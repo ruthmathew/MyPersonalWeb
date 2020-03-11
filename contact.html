@@ -25,12 +25,69 @@
                     </tr>
                 </table>
         
-                <table align="left"  cellpadding="10px" width="70%" frame="below">
+                <table align="center" >
                     <tr>
-                        <td> <h2> Contact</h2></td>
+                        <td> <h2> Contact Me</h2></td>
                     </tr>
                 </table>
-                <table align="right" width="30%" cellpadding="10px" frame="lhs" >
+                <hr>
+                <table cellspacing="10">
+                    <tr>
+                        <td>
+                            <form action="mailto:se.ruth.matewos@gmail.com" enctype="utf-8 me" method="POST">
+                            <table>
+                                <tr>
+                                    <td> <label for="fname"> First Name</label></td>
+                                    <td> <input type="text" cols="20" pattern="[A-Za-z]{1,10}" title="only Alphabets allowed"></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td> <label for="lname"> Last Name</label></td>
+                                    <td> <input type="text" pattern="[A-Za-z]{1,10}" title="only Alphabets allowed"></td>
+                                </tr>
+                                <tr>
+                                    <td> <label for= "email"> Email</label></td>
+                                    <td> <input type="email"></td>
+                                </tr>
+                                <tr>
+                                    <td> <label for= "password"> password</label></td>
+                                    <td> <input type="password" pattern="[A-Za-z/d]{8,15}" title="a password must include number, symbol, albhabet and be greater than 8 character" required></td>
+                                </tr>
+                                <tr>
+                                    <td> <label for= "PhoneNumber"> Phone Number</label></td>
+                                    <td> <input type="tel" pattern="[d]{10-12}" title=" 10 upto 12 digit numbers only">></td>
+                                </tr>
+                                <tr>
+                                    <td> <label for= "sex"> Sex</label></td>
+                                    <td><input type="radio" name="radio" id="radio"/> male<input type="radio" name="radio" id="radio"/>female</td>
+                            
+                                </tr>
+                                <tr>
+                                    <td> <select name="Country" id="country">
+                                        <option values="As"> Ethiopia</option>
+                                        <option value="Af"> England</option>
+                                        <option value="Af"> Korea</option>
+                                        <option value="Af"> Canada</option>
+                                
+                                    </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> <label for="detail"> What Do you say?</label></td>
+                                    <td> <textarea type="text" name="details" id="details" cols="90" rows="10">
+                                    </textarea></td>
+                                </tr>
+                                <tr>
+                                    <td> <button >Submit</button></td>
+                                </tr>
+                            </table>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+
+
+                <!-- <table align="right" width="30%" cellpadding="10px" frame="lhs" >
                     <tr> <td> CONNECT WITH ME</td></tr>
                     <tr>
                         <td><a href="https://web.telegram.org/#/login"><img src="./image/telegram.png" width="60px height= 60px"></a></td>
@@ -49,7 +106,7 @@
                     <tr>
                         <td></td>
                     </tr>
-                </table>
+                </table> -->
             </td>
         </tr>
     </table>
